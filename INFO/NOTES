@@ -1,0 +1,21 @@
+What is the scope of a variable in Python?
+ - The scope of a variable determines where it can be accessed. Local variables are scoped to the function in which they are defined, while global variables can be accessed throughout the program.
+
+-----===--------
+
+Can we change the type of a variable after assigning it?
+ - Yes, Python allows dynamic typing. A variable can hold a value of one type initially and be reassigned a value of a different type later.
+
+-----===--------
+
+What happens if we use an undefined variable?
+ - Using an undefined variable raises a NameError. Always initialize variables before use.
+
+-----===--------
+
+How can we delete a variable in Python?
+ - We can delete a variable in Python using the del keyword:
+
+    x = 10
+    del x
+    #print(x)  # Raises a NameError since 'x' has been deleted
